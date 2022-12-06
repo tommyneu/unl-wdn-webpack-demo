@@ -1,0 +1,1 @@
+import * as cards_plugin from "./plugins/plugin-card"

@@ -1,0 +1,22 @@
+@use "../abstracts" as *;
+
+.card{
+    width: fit-content;
+    max-width: 60ch;
+    border: solid $accent-color;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+
+    & h2:first-child{
+        margin: 0;
+        padding: 0 4ch;
+        border-radius: 0.25rem 0.25rem 0 0;
+        background-color: $accent-color;
+        font-weight: bold;
+    }
+
+    & p {
+        margin: 0.5rem;
+    }
+}
